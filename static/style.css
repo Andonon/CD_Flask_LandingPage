@@ -13,11 +13,29 @@
     font-family: 'Open Sans', sans-serif;
 }
 #wrapper {
-    height: 800px;
+    height: 600px;
     width: 800px;
     padding: 50px;
     background-image: linear-gradient(300deg, grey, white);
 }
+img {
+    height: 200px;
+}
+
+#ninjaimage {
+    width: 100px;
+    display: inline-block;
+    margin: 20px;
+}
+#ninjainfo {
+    width: 600px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
 h1 {
     text-align: center; 
     margin: 20px;

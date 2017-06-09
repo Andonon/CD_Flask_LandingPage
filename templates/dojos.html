@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang='en'>
     <head>
-        <title>Landing Page</title>
+        <title>Dojo Form Page</title>
         <meta charset='utf-8' />
-        <link rel='stylesheet' href='{{ url_for('static',filename='style.css')}}/>
+        <link rel='stylesheet' href='{{url_for('static',filename='style.css')}}'>
         <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     </head>
     <body>
@@ -11,6 +11,17 @@
             <h1>Welcome to the Dojo Form page... </h1>
             <p>Here you can enter information and click the submit button. </p>
             <p>It''s not going to go anywhere however. The submit button has no form action set.</p>
+            <h2>Data Entry Form</h2>
+            <form action='/users' method=''>
+            <p>Name: <input type='text' name='name'></p>
+            </br>
+            <p>Email: <input type='text' name='email'></p>
+            </br>
+            <p>Phone: <input type='text' name='phone'></p>
+            </br>
+            <input type='submit' value="submit, but it won't do anything">
+            
+      </form>
         </div>
     </body>
 </html>

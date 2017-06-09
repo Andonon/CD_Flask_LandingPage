@@ -2,14 +2,16 @@
 <html lang='en'>
     <head>
         <title>Landing Page</title>
-        <meta charset='utf-8' />
-        <link rel='stylesheet' href='{{ url_for('static',filename='style.css')}}/>
+        <meta charset='utf-8'>
+        <link rel='stylesheet' href="{{url_for('static',filename='style.css')}}">
         <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     </head>
     <body>
         <div id='wrapper'>
             <h1>Welcome to the landing page... </h1>
             <p>This is the landing page for this site... </p>
+            <a href="/ninjas">About Ninjas</a>
+            <a href="/dojos/new">New Dojo Form</a>
         </div>
     </body>
 </html>
